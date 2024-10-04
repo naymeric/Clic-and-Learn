@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clic & Learn</title>
+    <link rel="stylesheet" href="../assets/css/pageCSS.css">
+</head>
+
+<body>
+    <header>
+        <div class="logoClicLearn">
+            <img src="../assets/images/logo-clicandlearn.png" alt="clic & learn">
+        </div>
+        <div class="navigation">
+            <nav>
+                <ul class="navigationList">
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="./html.html">HTML</a></li>
+                    <li><a href="./pageCSS.html">CSS</a></li>
+                    <li><a href="./js.html">JavaScript</a></li>
+                    <li><a href="./contact.html">Nous contacter</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="css">
+            <section class="cssDef">
+                <h2>CSS c'est quoi ?</h2>
+                <p>CSS, ou Cascading Style Sheets, est un langage utilisé pour styliser et mettre en forme les pages
+                    web. CSS permet de contrôler l'apparence des éléments HTML, comme les couleurs, les polices, les
+                    espacements, les marges, et bien plus encore.</p>
+                <div class="doigt">
+                    <img src="../assets/images/doigt2.jpg" alt="doigt qui clic">
+                </div>
+            </section>
+
+
+            <section class="structurePageCSS">
+                <h2>Squelette d'une page CSS</h2>
+                <div class="tablStructureCss">
+                    <img src="../assets/images/schema-structure-css.png" alt="Squelette d'une page CSS">
+                </div>
+                <p>Dans un code CSS vous allez avoir 3 éléments importants et 1 notion à retenir. Ces éléments sont :
+                </p>
+                <ul>
+                    <li>le sélecteur,</li>
+                    <li>la propriété,</li>
+                    <li>la valeur</li>
+                </ul>
+                <p>La propriété couplée à une valeur induit la notion de règle (ou déclaration) qui détermine la
+                    modification apportée à un élément HTML déterminé par un sélecteur.</p>
+
+                <h3>Sélecteurs</h3>
+                <p>CSS utilise des sélecteurs pour cibler les éléments HTML que tu veux styliser. Par exemple, un
+                    sélecteur peut cibler toutes les balises "p" (paragraphes) ou une classe spécifique comme
+                    .ma-classe.</p>
+
+                <h3>Propriétés et valeurs</h3>
+                <p>Chaque règle CSS est composée d'une propriété et d'une valeur. Par exemple, pour changer la couleur
+                    du texte, tu pourrais écrire :</p>
+                <div class="paragrapheCssPict">
+                    <img src="../assets/images/css-ex-p.png" alt="exemple d'un paragraphe coloré via css">
+                </div>
+            </section>
+
+
+            <section class="selecteursCss">
+                <h2>Zoom sur les sélecteurs en CSS</h2>
+                <TAble class="selecteur-table" border="6">
+                    <tr>
+                        <th>Type de sélecteur</th>
+                        <th>Fonction du sélecteur</th>
+                        <th>Exemple</th>
+                    </tr>
+                    <tr>
+                        <td class="colTypeSelecteur">Sélecteurs de type</td>
+                        <td class="colFonctionSelecteur">Sélectionne tous les éléments d'un type donné</td>
+                        <td><img src="../assets/images/css-ex-p.png" alt="ex d'un sélecteur de type"></td>
+                    </tr>
+                    <tr>
+                        <td class="colTypeSelecteur">Sélecteurs de classe</td>
+                        <td class="colFonctionSelecteur">Cible les éléments avec une classe spécifique précédée d'un
+                            point (.)</td>
+                        <td><img src="../assets/images/selecteurClasse.png" alt="ex d'un sélecteur de classe"></td>
+                    </tr>
+                    <tr>
+                        <td class="colTypeSelecteur">Sélecteurs d'identitifant</td>
+                        <td class="colFonctionSelecteur">Cible un élément avec un identifiant spécifique précédé d’un
+                            dièse (#)</td>
+                        <td><img src="../assets/images/selecteurId.png" alt="ex d'un sélecteur d'identifiant"></td>
+                    </tr>
+                    <tr>
+                        <td class="colTypeSelecteur">Sélecteurs descendant</td>
+                        <td class="colFonctionSelecteur">Sélectionne les éléments qui sont des descendants d'un autre
+                            élément</td>
+                        <td><img src="../assets/images/selecteurDescendant.png" alt="ex d'un sélecteur descendant"></td>
+                    </tr>
+                    <tr>
+                        <td class="colTypeSelecteur">Sélecteurs d'attribut</td>
+                        <td class="colFonctionSelecteur">Cible les éléments qui possèdent un certain attribut</td>
+                        <td><img src="../assets/images/selecteurAttribut.png" alt="ex d'un sélecteur d'attribut"></td>
+                    </tr>
+                    <tr>
+                        <td class="colTypeSelecteur">Sélecteurs de pseudo-classe</td>
+                        <td class="colFonctionSelecteur">Cible les éléments dans un état particulier</td>
+                        <td><img src="../assets/images/selecteurPseudoClasse.png"
+                                alt="ex d'un sélecteur de pseudo-classe"></td>
+                    </tr>
+                </TAble>
+            </section>
+
+
+            <section class="proprietesCss">
+                <h2>Zoom sur les propriétés en CSS</h2>
+
+                <TAble class="propriete-table" border="6">
+                    <tr>
+                        <th>Type de propriété</th>
+                        <th>Fonction de la propriété</th>
+                        <th>Exemple</th>
+                    </tr>
+                    <tr>
+                        <td class="colTypeSelecteur">Color</td>
+                        <td class="colFonctionSelecteur">Définit la couleur du texte</td>
+                        <td><img src="../assets/images/css-ex-p.png" alt="ex de la propriété color"></td>
+                    </tr>
+                    <tr>
+                        <td class="colTypeSelecteur">Background-color</td>
+                        <td class="colFonctionSelecteur">Définit la couleur de fond d'un élément</td>
+                        <td><img src="../assets/images/background-color.png" alt="ex de la propriété background color">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="colTypeSelecteur">Font-size</td>
+                        <td class="colFonctionSelecteur">Définit la taille de la police</td>
+                        <td><img src="../assets/images/font.png" alt="ex de la propriété font"></td>
+                    </tr>
+                    <tr>
+                        <td class="colTypeSelecteur">Margin</td>
+                        <td class="colFonctionSelecteur">Définit l'espace extérieur autour d'un élément</td>
+                        <td><img src="../assets/images/margin.png" alt="ex de la propriété margin"></td>
+                    </tr>
+                    <tr>
+                        <td class="colTypeSelecteur">Padding</td>
+                        <td class="colFonctionSelecteur">Définit l'espace intérieur entre le contenu d'un élément et
+                            sa bordure</td>
+                        <td><img src="../assets/images/padding.png" alt="ex de la propriété padding"></td>
+                    </tr>
+                    <tr>
+                        <td class="colTypeSelecteur">Border</td>
+                        <td class="colFonctionSelecteur">Définit une bordure autour d'un élément</td>
+                        <td><img src="../assets/images/border.png" alt="ex de la propriété border"></td>
+                    </tr>
+                    <tr>
+                        <td class="colTypeSelecteur">Display</td>
+                        <td class="colFonctionSelecteur">Contrôle le type d'affichage d'un élément</td>
+                        <td><img src="../assets/images/display.png" alt="ex de la propriété display"></td>
+                    </tr>
+                    <tr>
+                        <td class="colTypeSelecteur">Text-align</td>
+                        <td class="colFonctionSelecteur">Définit l'alignement du texte</td>
+                        <td><img src="../assets/images/text-align.png" alt="ex de la propriété text-align"></td>
+                    </tr>
+                </TAble>
+            </section>
+
+
+            <section class="avecSansCss">
+                <h2>Différences entre une page web sans CSS et avec CSS</h2>
+                <article class="avecSansCss-article">
+                    <h3>Page web sans CSS</h3>
+                    <div class="avecSansCssPict1">
+                        <img src="../assets/images/pageWebSansCss.png" alt="Exemple d'une page sans CSS">
+                    </div>
+                    <h3>Page web avec CSS</h3>
+                    <div class="avecSansCssPict2">
+                        <img src="../assets/images/pageWebAvecCss.png" alt="Exemple d'une page avec CSS">
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <h2>Rejoins-nous sur les réseaux</h2>
+        <img src="../assets/images/facebook.png" alt="logo Facebook">
+        <img src="../assets/images/insta.png" alt="logo Instagram">
+        <img src="../assets/images/youtube.png" alt="logo Youtube">
+        <img src="../assets/images/link.png" alt="logo Linkedin">
+    </footer>
+
+</body>
+
+</html>
