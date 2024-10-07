@@ -45,6 +45,7 @@ header {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    transition: color 0.5s ease;
 }
 
 /*Hover sur les boutons de la barre de navigation*/

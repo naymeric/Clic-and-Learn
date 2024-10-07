@@ -45,6 +45,7 @@ header {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    transition: color 0.5s ease;
 }
 
 /*Hover sur les boutons de la barre de navigation*/
@@ -142,6 +143,27 @@ header {
 .evenementsJSPict {
     margin-bottom: 20px;
 }
+
+/*************Video JS******************/
+
+.plusJS {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.plusJS h2{
+margin-top: 10px;
+margin-bottom: 40px;
+background-color: #f9bb2f;
+padding-left: 40px;
+}
+
+.videoJS-container {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
 
 /*************FOOTER******************/
 

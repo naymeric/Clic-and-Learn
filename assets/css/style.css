@@ -45,6 +45,7 @@ header {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    transition: color 0.5s ease;
 }
 
 /*Hover sur les boutons de la barre de navigation*/
@@ -128,11 +129,10 @@ header {
     margin: 80px;
     display: flex;
     justify-content: space-around;
-
+   
 }
 
 .titleTuiles {
-
     margin: 80px;
     text-shadow: 0 0 0 black;
     font-size: xxx-large;
@@ -149,12 +149,20 @@ header {
     align-items: center;
     justify-content: center;
     color: white;
+  
+   
 }
 
 .tuiles img {
     width: 80%;
     padding: 20px;
     margin: 40px;
+    transition: transform 1s ease-in-out;
+}
+
+.tuiles img:hover{
+    transform: scale(1.1);
+   
 }
 
 .tuiles a {
@@ -168,7 +176,24 @@ header {
     color: black;
     font-size: large;
     font-weight: bold;
+    animation: float 8s ease infinite;
 }
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 
 .tuiles h2 {
     margin-bottom: 50px;
